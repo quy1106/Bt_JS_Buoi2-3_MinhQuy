@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <header>
+        <!-- place navbar here -->
+    </header>
+    <main>
+        <div class="container">
+            <!-- BÀI 1: -->
+            <div class="form-group">
+                <h1>Bài 1: Tính tiền lương nhân viên</h1>
+                <br>
+                <p>Lương 1 ngày: 100.000 VNĐ</p>
+                <div class="form-group">
+                    <p>Số ngày làm:</p>
+                    <input id="soNgayLam" class="form-control w-25" type="text">
+                </div>
+                <br>
+                <button class="btn btn-primary" id="btnTinhTienLuong">Tính tiền</button>
+                <div class="mt-2 alert alert-success w-25">Kết quả: <span id="ketQuaLuong"></span>
+                </div>
+            </div>
+            <br>
+            <br><hr>
+            <!-- Bài 2: Tính giá trị trung bình -->
+            <div class="form-group">
+                <H1>Bài 2: Tính giá trị trung bình</H1>
+                <br>
+                <div class="form-group w-50">
+                    <p>Nhập vào 5 số thực</p>
+                    <div class="text-center row gap-2">
+                        <input id="soThu1" class="col-4 form-control w-25" placeholder="Nhập số thứ nhất" type="number">
+                        <input id="soThu2" class="col-4 form-control w-25" placeholder="Nhập số thứ hai" type="number">
+                        <input id="soThu3" class="col-4 form-control w-25" placeholder="Nhập số thứ ba" type="number">
+                        <input id="soThu4" class="col-4 form-control w-25" placeholder="Nhập số thứ tư" type="number">
+                        <input id="soThu5" class="col-4 form-control w-25" placeholder="Nhập số thứ năm" type="number">
+                    </div>
+                    <br>
+                    <button class="btn btn-primary" id="btnTinhTrungBinh">Tính trung bình</button>
+                    <div class="mt-2 alert alert-success w-50">Kết quả: <span id="ketQuaTrungBinh"></span>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <br><hr>
+            <!-- Bài 3: Quy đổi tiền -->
+            <div class="form-group">
+                <h1>Bài 3: Quy đổi tiền</h1>
+                <br>
+                <div class="form-group">
+                    <p>Nhập số tiền USD</p>
+                    <input id="tienUsd" class="form-control w-25" type="number">
+                </div>
+                <br>
+                <button class="btn btn-primary" id="btnQuyDoiTien">Quy đổi tiền</button>
+                <div class="mt-2 alert alert-success w-25">Kết quả: <span id="ketQuaQuyDoiTien"></span>
+                </div>
+            </div>
+            <br><br><hr>
+            <!-- Bài 4: Tính chu vi, diện tích hình chữ nhật -->
+            <div class="form-group">
+                <h1>Bài 4: Tính chu vi, diện tích hình chữ nhật</h1>
+                <br>
+                <div class="form-group">
+                    <p>Nhập chiều dài</p>
+                    <input id="chieuDai" class="form-control w-25" type="number">
+                </div>
+                <div class="form-group">
+                    <p>Nhập chiều rộng</p>
+                    <input id="chieuRong" class="form-control w-25" type="number">
+                </div>
+                <br>
+                <button class="btn btn-primary" id="btnTinhKetQua">Tính</button>
+                <div class="mt-2 alert alert-success w-25">Kết quả: <span id="ketQua"></span>
+                </div>
+            </div>
+            <br><br>
+            <hr>
+            <!-- Bài 5: Tính tổng 2 ký số -->
+            <div class="form-group">
+                <h1>Bài 5: Tính tổng 2 ký số</h1>
+                <br>
+                <div class="mb-3">
+                  <label for="" class="form-label">Nhập số</label>
+                  <input type="text" name="" id="soN" class="form-control w-25" placeholder="Nhập vào số có 2 chữ số" aria-describedby="helpId">
+                </div>
+                <button class="btn btn-primary" id="btnTinhTong">Tính tổng</button>
+                <div class="mt-2 alert alert-success w-25">Kết quả: <span id="tongHaiKySo"></span>
+                </div>
+                <br><br>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <!-- place footer here -->
+    </footer>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+        </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+        integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+        </script>
+    <script src="./index.js"></script>
+</body>
+
+
+</html>
